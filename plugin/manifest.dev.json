@@ -1,0 +1,25 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "ja": "動的ドロップダウンプラグイン",
+    "en": "dynamic dropdown plugin"
+  },
+  "description": {
+    "ja": "動的ドロップダウンを作成します。",
+    "en": "Create dynamic dropdown."
+  },
+  "icon": "icon.png",
+  "desktop": {
+    "js": [
+      "https://localhost:8080/desktop.min.js"
+    ]
+  },
+  "config": {
+    "html": "config.html",
+    "js": [
+      "https://localhost:8080/config.min.js"
+    ]
+  }
+}
